@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0;
+    /* font-family: 'robotoblack'; */
+}
+
+/* li { */
+/*     display: block; */
+/* } */
+
+/* /\* @font-face { *\/ */
+/* /\*     font-family: 'robotoblack'; *\/ */
+/* /\*     src: url('fonts/roboto/roboto-black-webfont.woff2') format('woff2'), *\/ */
+/* /\*          url('fonts/roboto/roboto-black-webfont.woff') format('woff'); *\/ */
+/* /\*     font-weight: normal; *\/ */
+/* /\*     font-style: normal; *\/ */
+
+/* /\* } *\/ */
+
+/* #mainholder { */
+/*     height: 100vh; */
+/*     width: 100%; */
+/*     display: block; */
+/* } */
+
+/* #mainholder ul { */
+/*     width: 100%; */
+/*     height: 100%; */
+/*     display: block; */
+/*     position: relative; */
+/*     overflow: hidden; */
+/* } */
+
+/* .vrcanvas { */
+/*     display: none; */
+/*     height: 100%; */
+/*     position: absolute; */
+/*     top: 0; */
+/*     width: 100%; */
+/*     left: 0; */
+/*     overflow: hidden; */
+/* } */
+
+/* .vrcanvas:first-child { */
+/*     display: block; */
+/* } */
+
+/* #nextvr, #prevvr { */
+/*     width: 60px; */
+/*     height: 60px; */
+/*     position: absolute; */
+/*     display: block; */
+/*     bottom: 30px; */
+/*     cursor: pointer; */
+/*     z-index: 999; */
+/* } */
+
+/* #nextvr { */
+/*     right: 30px; */
+    
+/* } */
+
+/* #nextvr:before { */
+/*     content: "\f0a9";  /\* this is your text. You can also use UTF-8 character codes as I do here *\/ */
+/*     font-family: FontAwesome; */
+/*     position:absolute; */
+/*     font-size: 60px; */
+/* } */
+
+/* #prevvr:before { */
+/*     content: "\f0a8";  /\* this is your text. You can also use UTF-8 character codes as I do here *\/ */
+/*     font-family: FontAwesome; */
+/*     position:absolute; */
+/*     font-size: 60px; */
+/* } */
+
+/* #prevvr { */
+/*     left: 30px; */
+/* } */
+
+
+#controllers {
+    width: 19%;
+    height: 400px;
+    float: left;
+    padding-left: 30px;
+
+}
+
+#container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    margin-top: 50px;
+}
+
+#mainScene {
+    width: 100%;
+    height: 100%;
+}
+
+span.outputs {
+    display: block;
+    width: 150px;
+    height: 20px;
+    float: right;
+    margin: 5px;
+    clear: both;
+    position: relative;
+    left: -20px;
+    border: solid 1px;
+}
+
+span.labels {
+    text-align: left;
+    display: inline;
+    width: 70%;
+    float: left;
+    clear: both;
+}
